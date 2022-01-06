@@ -5,6 +5,8 @@ body{
 }
 .banner-area{
     display: flex;
+    margin-left: 5%;
+    padding-left: 2%;
 
 }
 .half-width{
@@ -20,7 +22,7 @@ body{
 }
 .half-width h1{
     padding-left: 5px;
-    font-family: PT-Serif;
+    font-family: 'Abril Fatface';
     font-size: 60px;
     font-weight: 700;
     border-left: 5px solid orange;
@@ -39,9 +41,15 @@ body{
     border-radius: 5px;
 }
 /* banner section style end */
+.about-area{
+    height: 500px;
+    margin-bottom: 150px;
+    margin-left: 5%;
+}
 .about-area h2{
     text-align: center;
     text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     font-weight: 800;
     color: #13103A;
@@ -57,8 +65,11 @@ body{
 
 }
 .mission-1 img{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
+}
+.mission-1 h3{
+    font-size: 25px;
 }
 #miss{
     background-color: #6a888b;
@@ -78,3 +89,86 @@ body{
     padding: 15px;
     margin: 25px; 
 }
+/* about style done */
+.development-area{
+    display: flex;
+    height: 500px;
+    margin-left: 5%;
+    padding-left: 2%;
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: left;
+}
+.development-area img{
+    width: 80%;
+}
+
+.development-area h2{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+#half2{
+    padding-top: 50px;
+    margin-left: -70px;
+}
+/*  */
+.team-area{
+    height: 500px;
+    margin-bottom: 150px;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+
+}
+.team{
+    display: flex;
+}
+.team1{
+    width: 40%;  
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+#team1-img{
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+    padding-bottom: 390px;
+    
+    
+}
+.team1 h2{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+.team1 img{
+    width: 80%;
+}
+#team-section{
+    padding-top: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 40px;
+    color: wheat;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-style: italic;
+}
+footer p{
+    font-size: 15px;
+    color: #D9DBE1;
+}
+footer span{
+    color: #FF5959;
+}
+
