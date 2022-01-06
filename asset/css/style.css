@@ -5,10 +5,13 @@ body{
 }
 .banner-area{
     display: flex;
+    height: 500px;
+    margin-bottom: 150px;
     margin-left: 5%;
     padding-left: 2%;
 
 }
+
 .half-width{
     width: 40%;
     margin-left: 5%;
@@ -17,18 +20,23 @@ body{
 .half-top{
     padding-top: 100px;
 }
+.half-top p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .half-width img{
     width: 80%;
 }
 .half-width h1{
     padding-left: 5px;
     font-family: 'Abril Fatface';
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 800;
     border-left: 5px solid orange;
+    margin-bottom: 0px;
 }
 .misssion{
-    color: salmon;
+    color: #FF6C5A;
 }
 .half-width p{
     color:#3E3E3E;
@@ -153,6 +161,76 @@ body{
 #team-section{
     padding-top: 20px;
 }
+
+
+/* team section end */
+.contact-area{
+    height: 500px;
+    margin-bottom: 150px;
+}
+.contact-side img{
+    width: 80%;
+}
+.contact-main{
+    display: flex;
+}
+.contact-side{
+    width: 40%;  
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.contact-side form{
+    padding: 20px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#contact-1{
+    box-shadow: 10px 20px 40px gray;
+    padding: 20px;
+    margin-right: 0px;
+    border-radius: 20px;
+}
+.button-link2{
+    display: block;
+    text-decoration: none;
+    background-image: linear-gradient(blue , rgb(165, 106, 106));
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    
+}
+input[type=email], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+}
+textarea{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+}
+.contact-side a{
+    margin-top: 10px;
+}
+/* contact section end */
+
+
 footer{
     text-align: center;
     background-color: #0B0D17;
@@ -171,4 +249,3 @@ footer p{
 footer span{
     color: #FF5959;
 }
-
